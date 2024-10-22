@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../img/CECDRAGON.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  h1 {
+    font-size: 1.0rem;
+    text-align: center;
+    color: rgb(10, 10, 10);
+    margin-bottom: 20px;
+  }
+  .container {
+    width: 500%;
+    max-width: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  form {
+    border: 3px solid #1e389c;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  input[type=text], input[type=input], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #1e389c;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  #login-btn{
+    background-color: rgb(119, 166, 242);
+    color: #fff;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  .register {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,180,233,1) 71%);
+    border: none;
+  }
+  .register i {
+    margin-right: 8px;
+  }
+  .register button {
+    margin-top: 15px;
+    background-color: #1e389c;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+  }
+  p {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .fa-eye{
+    margin-left: 65%;
+  }
